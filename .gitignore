@@ -1,0 +1,7 @@
+node_modules/
+
+# Database sqlite3
+src/database/db.sqlite
+
+# Requesistos
+requesistos.md
