@@ -1,11 +1,3 @@
-import express from 'express';
-import routes from './routes';
-import cors from 'cors';
+import server from './app'
 
-const server = express();
-
-server.use(cors())
-server.use(express.json());
-server.use(routes);
-
-server.listen(3333);
+server.listen(3333, () => console.log('Servidor no ar 🚀'))
