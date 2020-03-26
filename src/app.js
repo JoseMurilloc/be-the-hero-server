@@ -1,6 +1,7 @@
 import express from 'express';
 import routes from './routes';
 import cors from 'cors';
+import morgan from 'morgan';
 
 class App {
   constructor() {
@@ -11,7 +12,8 @@ class App {
   }
 
   middlewares() {
-    this.server.use(cors())
+    this.server.use(morgan('tiny'))
+    this.server.use(cors());
     this.server.use(express.json());
   }
   routes() {
