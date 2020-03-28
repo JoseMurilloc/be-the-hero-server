@@ -8,7 +8,6 @@ import SessionController from './app/controllers/SessionController';
 const routes = Router();
 
 routes.post('/sessions', SessionController.store);
-routes.delete('/sessions', SessionController.delete);
 
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.store);

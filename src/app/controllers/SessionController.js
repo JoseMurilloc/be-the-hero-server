@@ -14,6 +14,10 @@ class SessionController {
 
     return response.json(ong);
   }
+
+  async delete(request, response) {
+    return response.send();
+  }
 }
 
 export default new SessionController();
