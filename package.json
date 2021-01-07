@@ -15,6 +15,6 @@
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.2",
-    "sucrase": "^3.12.1"
+    "sucrase": "^3.17.0"
   }
 }
